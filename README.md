@@ -1,0 +1,2 @@
+# HashSet
+The underlying data structure is HashTable. Duplicates are not allowed. If we are trying to insert duplicates, we won't get any compile or run time error. add() method simply returns false. Insertion order is not preserved & all objects will be inserted based on the hash-code of objects. Heterogenous objects (Different types of objects) are allowed. 'null' insertion is possible. HashSet is the best choice if your frequent operation is a search operation.
